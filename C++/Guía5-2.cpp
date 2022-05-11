@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int pasajes;
-float descuento, total, impdescuento, precio, cantidad_chocolates;
+int pasajes, cantidad_chocolates;
+float descuento, total, impdescuento, precio;
 
 void totalepico()
 {
@@ -26,7 +26,7 @@ void cantchocolates()
 
 int main(){
 	cout<<"Antes de empezar, digame cuanto cuesta el pasaje: "<<"S/.";cin>>precio;
-	cout<<"\n";cout<<"Bienvenido, ¿Cuantos pasajes comprara?"<<"\n"; cin>>pasajes;
+	cout<<"\n";cout<<"Bienvenido, Â¿Cuantos pasajes comprara?"<<"\n"; cin>>pasajes;
 	totalepico();
 	descuentoawesome();
 	impdescuentoawesome();
